@@ -8,13 +8,13 @@ public class Arraylist {
 	
 	    ArrayList al = new ArrayList();
 	    al.add(12);
-	    al.add("Une chaîne de caractères !");
-	    al.add(12.20f);
+	    al.add("Une chaîne de plusieur charactère !");
+	    al.add(12.9000f);
 	    al.add('d');
 	                
 	    for(int i = 0; i < al.size(); i++)
 	    {
-	      System.out.println("donnée à l'indice " + i + " = " + al.get(i));
+	      System.out.println("donné à l'indice " + i + " = " + al.get(i));
 	    }               
 	  }
 	}
