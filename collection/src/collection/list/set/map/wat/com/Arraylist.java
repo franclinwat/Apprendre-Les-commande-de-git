@@ -14,6 +14,7 @@ public class Arraylist {
 	                
 	    for(int i = 0; i < al.size(); i++)
 	    {
+	    	System.out.println("petit test");
 	      System.out.println("donné à l'indice " + i + " = " + al.get(i));
 	    }               
 	  }
